@@ -8,3 +8,7 @@ jobs:
 
     steps:
       - run: echo Hello World!
+      - run: whoami
+      - run: pwd
+      - run: env
+      - run: printenv
